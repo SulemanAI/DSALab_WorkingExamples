@@ -1,4 +1,4 @@
-public class Insert_In_UnsortedArray {
+public class Insert_atThe_End {
     static int insertEnd(int arr[], int n, int key, int capacity) {
         if (n >= capacity) {
             System.out.println("Array is full. Cannot insert new element.");
@@ -26,7 +26,7 @@ public class Insert_In_UnsortedArray {
             System.out.print(arr[i] + " ");
         }
 
-        n = Insert_In_UnsortedArray.insertEnd(arr, n, key, capacity);
+        n = Insert_atThe_End.insertEnd(arr, n, key, capacity);
 
         System.out.println("\n\nAfter Insertion:");
         for (int i = 0; i < n; i++) {
